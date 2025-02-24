@@ -6,7 +6,7 @@ body {
     flex-direction: column; /* Mengatur layout vertikal */
     justify-content: center;
     align-items: center;
-    background-image: url('https://img.freepik.com/free-vector/blurred-bokeh-lights-background_1048-7881.jpg'); /* Ganti dengan path gambar Anda */
+    background-image: url('bg-002.jpeg'); /* Ganti dengan path gambar Anda */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ h1 {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 20px;
-    font-size: 20px;
+    font-size: 35px;
     color: #e8f800;
     stroke: rgb(0, 136, 255);
     text-shadow: #000000;
@@ -25,6 +25,7 @@ h1 {
 h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
+    text-align: center;
     color: antiquewhite;
     outline-color: #000000;
 
@@ -36,7 +37,7 @@ h2 {
 }
 
 #popup-image {
-    width: 100px; /* Sesuaikan ukuran gambar */
+    width: 300px; /* Sesuaikan ukuran gambar */
     height: auto;
     animation: popup 2s ease-in-out; /* Animasi pop-up */
 }
